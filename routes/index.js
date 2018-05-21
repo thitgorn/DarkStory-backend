@@ -1,7 +1,7 @@
 import question from '../data/question'
 
-export default func = (res) => {
+exports.getAnswer = (res) => {
     res.send(question)
 }
 
-export const URL = "/"
+exports.URL = "/"
